@@ -1,0 +1,380 @@
+/* стр. 103 №1 */
+#elem {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 20px 50px 60px;
+}
+/* стр. 104 №1 */
+#elem1 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 40px;
+}
+/* стр. 105 №1 */
+#elem2 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 40px 20px;
+}
+/* стр. 107 №1 */
+#elem3 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+	border-radius: 50%;
+}
+/* стр. 108 №1 */
+#elem4 {
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+}
+/* стр. 109 №1 */
+#elem5 {
+	background-repeat: repeat-y;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+/* стр. 109 №2 */
+#elem6 {
+	background-repeat: repeat-x;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+/* стр. 112 №1 */
+ul {
+	list-style-type: square;
+}
+/* стр. 113 №1 */
+ul2 {
+	list-style-type: circle;
+}
+/* стр. 114 №1 */
+ul3 {
+	list-style-type: disc;
+}
+/* стр. 115 №1 */
+ul4 {
+	list-style-type: none;
+}
+/* стр. 119 №1 */
+ol {
+	list-style-type: lower-alpha;
+}
+/* стр. 120 №1 */
+ol1  {
+	list-style-type: upper-alpha;
+}
+/* стр. 121 №1 */
+ol2 {
+	list-style-type: lower-greek;
+}
+/* стр. 123 №1 */
+
+#parent {
+	width: 200px;
+	   height: 200px;
+	border: 1px dashed blue;
+   }
+   
+   #child {
+	height: 150px;
+	border: 1px solid orange;
+	margin: 30px;
+   }
+/* стр. 123 №2 */
+#parent1 {
+	width: 400px;
+	border: 1px dashed blue;
+}
+#child1 {
+	height: 250px;
+	border: 1px dashed green;
+	margin: 30px;
+}
+#child2 {
+	height: 200px;
+	border: 1px solid red;
+	margin: 30px;
+}
+/* стр. 124 №1 */
+#parent3 {
+	width: 200px;
+	height: 250px;
+	border: 1px solid red;
+}
+#child3 {
+	margin-top:    40px; /* сверху */
+	margin-right:  20px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   45px; /* слева */
+	
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+}
+/* стр. 124 №2 */
+#parent4 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+#child4 {
+	margin-top:    40px; /* сверху */
+	margin-right:  60px; /* справа */
+	margin-bottom: 40px; /* снизу */
+	margin-left:   20px; /* слева */
+	
+	height: 100px;
+	width: 150px;
+	border: 1px solid green;
+}
+/* стр. 124 №3 */
+#parent5 {
+	width: 200px;
+	height: 125px;
+	border: 1px solid red;
+}
+#child5 {
+	margin-top:    10px; /* сверху */
+	margin-right:  20px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   70px; /* слева */
+	
+	height: 100px;
+	width: 50px;
+	border: 1px solid green;
+}
+/* стр. 126 №1 */
+#parent6 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid orange;
+}
+#child6 {
+	height: 50px;
+	width: 150px;
+	border: 1px dashed blue;
+	margin: 30px 40px 30px 10px;
+}
+/* стр. 127 №1 */
+#parent7 {
+	width: 200px;
+	height: 250px;
+	border: 1px solid orange;
+}
+#child7 {
+	height: 50px;
+	width: 100px;
+	border: 1px dashed blue;
+	margin: 100px 50px;
+}
+/* стр. 127 №2 */
+#parent8 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid orange;
+}
+#child8 {
+	height: 50px;
+	width: 100px;
+	border: 1px dashed blue;
+	margin: 25px 50px ;
+}
+/* стр. 128 №1 */
+#parent9 {
+	width: 150px;
+	height:150px ;
+	border: 1px solid orange;
+}
+#child9 {
+	height: 40px;
+	width: 100px;
+	border: 1px dashed blue;
+	margin: 80px 25px 10px ;
+}
+/* стр. 128 №2 */
+#parent10 {
+	width: 300px;
+	height: 100px;
+	border: 1px solid orange;
+}
+#child10 {
+	height: 40px;
+	width: 150px;
+	border: 1px dashed blue;
+	margin: 20px 75px 30px ;
+}
+/* стр. 129 №1 */
+#elem10 {
+	padding: 50px;
+	height: 250px;
+	width: 250px;
+	border: 1px solid red;
+	text-align: justify;
+}
+/* стр. 129 №2 */
+#elem11 {
+	padding: 20px;
+	height: 100px;
+	width: 600px;
+	border: 1px solid green;
+	text-align: justify;
+}
+#elem12 {
+	padding: 10px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+}
+/* стр. 130 №1 */
+#elem13 {
+	padding-top:    50px; /* сверху */
+	padding-right:  40px; /* справа */
+	padding-bottom: 30px; /* снизу */
+	padding-left:   40px; /* слева */
+	height: 350px;
+	width: 150px;
+	border: 1px solid red;
+	text-align: justify;
+}
+
+/* ср131№1 */
+#elem14 {
+	padding-top:    10px; /* сверху */
+	padding-right:  30px; /* справа */
+	padding-bottom: 40px; /* снизу */
+	padding-left:   70px; /* слева */
+	height: 150px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+   }
+   /* ср131№2 */
+   #elem15 {
+	padding: 60px 50px ;
+	height: 150px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+   }
+   /* ср131№3 */
+   #elem16 {
+	padding: 10px 30px 20px ;
+	height: 200px;
+	width: 300px;
+	border: 1px solid red;
+	text-align: justify;
+   }
+
+/* стр. 135 №1 */
+#elem17 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+   }
+   
+   #elem18 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; 
+	border: 10px solid green;  
+	box-sizing: border-box;  
+   }
+/* стр. 147 №1 */
+div1 {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+   }
+/* стр. 147 №2 */
+a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+/* стр. 152 №1 */
+div2  {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		border: 1px solid red;
+		display: inline-block;
+	}
+/* стр. 153 №1 */
+.parent10 {
+	border: 1px solid red;
+}
+
+.child10 {
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.child11 {
+	height: 100px;
+	width: 250px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.child12 {
+	height: 100px;
+	width: 400px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+/* стр. 158 №1 */
+.parent {
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.child {
+	border: 1px solid green;
+}
+/* стр. 159 №1 */
+.parent20 {
+	text-align: right;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.child20 {
+	border: 1px solid green;
+}
+/* стр. 159 №2 */
+.parent21 {
+	text-align: right;
+	padding: 10px 0;
+	border: 1px solid red;
+	padding-right: 10pxs;
+}
+.child21 {
+	border: 1px solid green;
+}
+/* стр. 161 №1 */
+.parents2 {
+	text-align: center;
+	padding: 10px 0;
+	border: 1px solid red;
+   }
+   .childs2 {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid green;
+	   margin: auto;
+   }
